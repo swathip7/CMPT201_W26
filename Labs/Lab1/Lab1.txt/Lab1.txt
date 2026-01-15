@@ -1,0 +1,7 @@
+Part 1: I'm familiar with Python, a little bit of HTML and Java
+
+Part 2: List  information  about the FILEs (the current directory
+       by default).  Sort entries alphabetically if none of -cf‐
+       tuvSUX nor --sort is specified.
+
+Part 3:
