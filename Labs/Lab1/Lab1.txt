@@ -6,3 +6,4 @@ Part 2: List  information  about the FILEs (the current directory
 
 Part 3: 26th byte: 75
         27th byte: 6d
+        

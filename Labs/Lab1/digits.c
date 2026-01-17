@@ -5,11 +5,19 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int digits = 0, number;
 
-    printf("Enter a non-negative number: ");
-    scanf("%d", &number);
+    printf("Please enter a positive integer: ");
+    if (scanf("%d", &number) != 1) {
+        printf("Invalid input! Please enter an integer.\n");
+        return 1;
+    }
+
+    if (number <= 0) {
+        printf("Please enter an integer greater than 0!\n");
+        return 1;
+    }
 
     while (number > 0) {
         number /= 10;
