@@ -4,4 +4,5 @@ Part 2: List  information  about the FILEs (the current directory
        by default).  Sort entries alphabetically if none of -cf‐
        tuvSUX nor --sort is specified.
 
-Part 3:
+Part 3: 26th byte: 75
+        27th byte: 6d
